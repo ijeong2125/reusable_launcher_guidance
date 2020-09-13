@@ -47,7 +47,7 @@ Sim_Parameter;
             for t = 1:N
                 
                 r(:,t+1) == r(:,t) + delt * (v(:,t))
-                v(:,t+1) == v(:,t) + delt * (u(:,t)+ [0;0;-g_e])
+                v(:,t+1) == v(:,t) + delt * (u(:,t)+ [0;0;g_e])
                 
                 
                 z(t+1) == z(t) - Alpha * delt * (Sigma_var(t))

@@ -62,21 +62,21 @@
     
      %% plotting
     
-    figure(1)
-    subplot(3,1,1)
-    plot(outSim.Time(:,1),outSim.Thr_x_Aero(:,1))
-    ylabel('N')
-    grid on ; hold on; 
-    title('Aero', 'FontSize', 12)
-    subplot(3,1,2)
-    plot(outSim.Time(:,1),outSim.Thr_y_Aero(:,1))
-    ylabel('E')
-    grid on ; hold on; 
-    subplot(3,1,3)
-    plot(outSim.Time(:,1),outSim.Thr_z_Aero(:,1))
-    ylabel('D')
-    grid on ; hold on; 
-    
+%     figure(1)
+%     subplot(3,1,1)
+%     plot(outSim.Time(:,1),outSim.Thr_x_Aero(:,1))
+%     ylabel('N')
+%     grid on ; hold on; 
+%     title('Aero', 'FontSize', 12)
+%     subplot(3,1,2)
+%     plot(outSim.Time(:,1),outSim.Thr_y_Aero(:,1))
+%     ylabel('E')
+%     grid on ; hold on; 
+%     subplot(3,1,3)
+%     plot(outSim.Time(:,1),outSim.Thr_z_Aero(:,1))
+%     ylabel('D')
+%     grid on ; hold on; 
+%     
     figure(2)
     subplot(3,1,1)
     plot(outSim.Time(:,1),outSim.Thr_x_I(:,1))

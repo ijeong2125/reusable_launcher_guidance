@@ -45,9 +45,9 @@
     outSim.Vy_L(i,1)        =       outDyn.Vbll(2,1) ; 
     outSim.Vz_L(i,1)        =       outDyn.Vbll(3,1) ; 
     
-    outSim.Thr_x_Aero(i,1)     =       outAdy.Fi_Aero(1,1);
-    outSim.Thr_y_Aero(i,1)     =       outAdy.Fi_Aero(2,1);
-    outSim.Thr_z_Aero(i,1)     =       outAdy.Fi_Aero(3,1);
+%     outSim.Thr_x_Aero(i,1)     =       outAdy.Fi_Aero(1,1);
+%     outSim.Thr_y_Aero(i,1)     =       outAdy.Fi_Aero(2,1);
+%     outSim.Thr_z_Aero(i,1)     =       outAdy.Fi_Aero(3,1);
     
     outSim.Thr_x_I(i,1)     =       outThr.Fi_Thr(1,1);
     outSim.Thr_y_I(i,1)     =       outThr.Fi_Thr(2,1);
