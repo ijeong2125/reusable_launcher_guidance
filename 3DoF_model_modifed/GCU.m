@@ -67,7 +67,7 @@
     % Thrust ( Your Guidance Command, L-Frame )
     
     
-    
+
     [N,E,D]         = 	 Compute_cvx_Euler(position,velocity,datSim.Time);
     Thr_Cmd         =    [N;E;D];
 
